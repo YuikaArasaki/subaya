@@ -1,0 +1,193 @@
+/* ---------------------------------
+全体構造
+----------------------------------*/
+body{
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration:none;
+  color: #000; 
+}
+/* ---------------------------------
+ヘッダー
+----------------------------------*/
+.top-images{
+  display: flex;
+  margin-bottom: 100px;
+}
+.top-images-left{
+  border-right: 1px solid #000;
+}
+header nav{
+  width: 360px;
+  margin-left: 730px;
+  position: absolute;
+  top: 20px;
+}
+header ul{
+  display: flex;
+  justify-content: space-between;
+}
+/* ---------------------------------
+メイン　お知らせ
+----------------------------------*/
+.box{
+  display: flex;
+  margin-bottom: 50px;
+}
+.vertical{
+  background-color: #ddd;
+  -ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+  display: flex;
+  padding: 20px;
+}
+.vertical h1{
+  font-size: 30px;
+  margin-bottom: 130px;
+}
+.vertical p{
+  color: red;
+}
+main section{
+  width: 940px;
+  margin-left: 50px;
+}
+main section img{
+margin-bottom: 20px;
+}
+main section iframe{
+  margin-bottom: 20px;
+}
+.text{
+  font-size: 16px;
+font-weight: bold;
+margin-bottom: 30px;
+}
+main p{
+  line-height: 1.5em;
+}
+.allow{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+}
+/* ---------------------------------
+メイン　お品書き
+----------------------------------*/
+.subaya{
+  margin-bottom: 100px;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.left{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+}
+.text-left{
+  margin-left: 50px;
+}
+.text-right{
+  margin-right: 50px;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+.left p{
+  display: block;
+}
+.right p{
+  display: block;
+}
+.mgr-100{
+  margin-right: 100px;
+}
+/* ---------------------------------
+メイン　サイドメニュー
+----------------------------------*/
+.side{
+  font-size: 30px;
+  font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.side-menu{
+  display: flex;
+}
+.side-menu p{
+margin-left: 70px;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 100px;
+}
+/* ---------------------------------
+店舗案内
+----------------------------------*/
+h3{
+  font-size: 30px;
+  font-weight: bold;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+.info{
+  font-size: 16px;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 50px;
+}
+h4{
+  margin-bottom: 20px;
+}
+.info p{
+  margin-bottom: 100px;
+}
+/* ---------------------------------
+フッター
+----------------------------------*/
+footer{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+footer nav{
+  width: 360px;
+  margin-bottom: 30px;
+}
+footer ul{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
